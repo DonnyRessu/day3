@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Contact</title>
+    <link rel="stylesheet" href="assets/CSS/contact-me.css">
+    <link rel="stylesheet" href="assets/CSS/index.css">
+</head>
+<body style="margin: 0;">
+<!-- navbar -->
+<nav>
+    <div class="nav-left">
+        <ul>
+            <li><a href="index.html"><img class="logo" src="assets/image/logo.png"></a></li>
+            <li style="font-weight: bold;"><a href="index.html">Home</a></li>
+            <li><a href="#">My Project</a></li>
+        </ul>
+    </div>
+    <div class="nav-right">
+        <a href="contact-me.html">Contact Me</a>
+    </div>
+</nav>
+
+<!-- end navbar -->
+
+    <div class="container-form">
+        <h1>Get in Touch</h1>
+        <form>
+            <label for="Name">Name</label><br>
+            <input type="text" id="Name" placeholder="nama lengkap"><br>
+            <label for="Email">Email</label><br>
+            <input type="text" id="Email" placeholder="email"><br>
+            <Label for="Phone Number">Phone Number</Label><br>
+            <input type="text" id="phoneNumber" placeholder="nomor HP"><br>
+            <label for="Subject">Subject</label><br>
+            <select id="subject">
+                <option disabled selected></option>
+                <option>Front End Developer</option>
+                <option>Back End Developer</option>
+                <option>Fullstack Developer</option>
+            </select><br>
+            <label for="yourMessage">Your Message</label><br>
+            <textarea id="yourMessage" placeholder="komentar anda"></textarea><br>
+            <button type="button" onclick="getData()">Submit</button>
+        </form>
+    </div>
+    <script src="assets/JS/contact-me.js"></script>
+</body>
+</html>
